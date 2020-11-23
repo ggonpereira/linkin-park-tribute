@@ -36,7 +36,7 @@
 
 <h2>Aprendizados 📚</h2>
 
-<p align="center"> Esse projeto me ajudou a treinar minha semântica, posicionamento em HTML e CSS, principalmente com o uso de Grid Layout e Flex-box, dois recursos que facilitam muito o desenvolvimento web. Em breve estarei adicionando o Javascript e a responsividade ao site. 🙌🏼 </p>
+<p align="center"> Esse projeto me ajudou a treinar minha semântica, posicionamento em HTML e CSS, principalmente com o uso de Grid Layout e Flex-box, dois recursos que facilitam muito o desenvolvimento web. Além de ser um dos meus primeiros projetos em que utilizo a responsividade, algo que eu possuia muitas dúvidas mas que estou começando a entender e aplicarei em todos meus projetos de hoje em diante. Também estou começando a separar meus arquivos CSS, afim de tornar meus projetos mais fáceis de receberem manutenções futuras. 🙌🏼 </p>
 
 ---
 
