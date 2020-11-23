@@ -1,0 +1,113 @@
+.main-section {
+  scroll-behavior: smooth;
+  padding: 0 45px;
+}
+
+.tribute-area-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  padding: 0 25px;
+}
+
+.tribute-area-info:nth-child(1n + 1) {
+  margin-top: 50px;
+}
+
+.tribute-area-info img {
+  border-radius: 5px;
+  filter: brightness(50%);
+  -webkit-box-shadow: 10px 10px 54px -30px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 54px -30px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 54px -30px rgba(0, 0, 0, 1);
+
+  width: 47%;
+}
+
+.tribute-area-text {
+  width: 47%;
+  font: 400 1.6rem/1.38 "Roboto", sans-serif;
+}
+
+.tribute-area-text h2,
+.music-area h2,
+.album-area h2 {
+  margin: 10px 0;
+  line-height: 3.4rem;
+  letter-spacing: 0.23rem;
+}
+
+.music-area {
+  margin-top: 40px;
+  padding: 45px;
+}
+
+.musics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.musics iframe {
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+}
+
+.musics h3 {
+  font: 500 2rem/1.7 "Roboto", sans-serif;
+}
+
+.musics h4 {
+  font: 500 1.6rem/1.5 "Roboto", sans-serif;
+  display: block;
+}
+
+.musics span {
+  font: 400 1.4rem/1.5 "Roboto", sans-serif;
+  color: #b9b9b9;
+}
+
+.album-area {
+  padding: 45px;
+}
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.albums img {
+  width: 100%;
+  height: 280px;
+  max-height: 280px;
+
+  border-radius: 5px;
+  filter: brightness(80%);
+  -webkit-box-shadow: 10px 10px 54px -30px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 54px -30px rgba(0, 0, 0, 1);
+  box-shadow: 10px 10px 54px -30px rgba(0, 0, 0, 1);
+}
+
+.albums h3 {
+  font: 500 2rem/2 "Roboto", sans-serif;
+}
+
+.albums h4 {
+  font: 500 1.6rem/1.5 "Roboto", sans-serif;
+  display: block;
+}
+
+.albums span {
+  font: 400 1.6rem/1.5 "Roboto", sans-serif;
+  color: #b9b9b9;
+}
+
+.albums ul li {
+  list-style-type: disc;
+
+  font: 400 1.8rem/1.5 "Roboto", sans-serif;
+  margin-left: 16px;
+}

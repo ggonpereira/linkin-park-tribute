@@ -1,25 +1,168 @@
-.ham-icon {
-  margin-left: 30px;
-  cursor: pointer;
-  font-size: 2.2rem;
+@media (max-width: 1472px) {
+  .tribute-area-text {
+    font-size: 1.45rem;
+
+    min-width: 0;
+    width: 50%;
+    height: auto;
+  }
+
+  img.tribute-area-info img {
+    min-width: 0;
+    width: 45%;
+  }
+
+  .tribute-area-text h2 {
+    margin: 0 0 10px 0;
+  }
 }
 
-@media (max-width: 1288px) {
+@media (max-width: 1350px) {
   .main-menu {
-    display: none;
+    display: flex;
   }
 
-  .main-menu.toggle-cls {
-    display: block;
+  .tribute-area-info img {
+    min-width: 0;
+    max-height: 322px;
+
+    width: 45%;
+  }
+
+  .tribute-area-text {
+    min-width: 0;
+
+    width: 50%;
+  }
+
+  .musics {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .albums {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
 }
 
-@media (min-width: 1289px) {
-  .ham-icon {
-    display: none;
+@media (max-width: 1060px) {
+  .header-area img {
+    width: 40px;
   }
 
-  .main-menu {
-    display: initial;
+  .header-area .left-area li a,
+  .header-area .right-area h4 {
+    font-size: 1.6rem;
+  }
+
+  .header-area .left-area {
+    margin: 0 0 0 90px;
+  }
+
+  .header-area .right-area {
+    margin: 0 90px 0 0;
+  }
+
+  .main-menu li a {
+    padding: 15px 15px;
+  }
+
+  .header-area .right-area em {
+    font-size: 4rem;
+  }
+
+  .main-header-area {
+    margin-left: -35px;
+    font-size: 2rem;
+    width: 650px;
+  }
+
+  /* Main Area */
+  .tribute-area-info {
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 25px;
+    margin-top: 50px;
+  }
+
+  .tribute-area-info:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+
+  .tribute-area-text {
+    width: auto;
+    width: 95%;
+    font-size: 1.6rem;
+  }
+
+  .tribute-area-info img {
+    min-height: 400px;
+    width: 95%;
+  }
+
+  .tribute-area-text h2 {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 840px) {
+  .header-area {
+    flex-direction: column;
+  }
+
+  main.main-section img {
+    min-height: 35 0px;
+  }
+
+  .header-area img {
+    margin: 0;
+  }
+
+  .header-area .left-area,
+  .header-area .right-area {
+    justify-content: center;
+    margin: 0;
+  }
+
+  .main-menu li a {
+    padding: 15px 12px;
+  }
+
+  .musics {
+    grid-template-columns: 1fr;
+  }
+
+  .music-area {
+    margin-top: 0;
+  }
+
+  .album-area {
+    padding-top: 0;
+  }
+
+  .albums {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .container {
+    width: 620px;
+  }
+
+  .main-header-area {
+    padding: 0 60px 0 60px;
+  }
+
+  .main-header-area {
+    margin-left: -35px;
+    font-size: 1.64rem;
+    width: 550px;
+  }
+
+  main.main-section img {
+    min-height: 0;
   }
 }
