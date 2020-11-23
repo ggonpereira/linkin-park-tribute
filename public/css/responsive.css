@@ -153,13 +153,11 @@
   }
 
   .main-header-area {
-    padding: 0 60px 0 60px;
-  }
-
-  .main-header-area {
-    margin-left: -35px;
     font-size: 1.64rem;
     width: 550px;
+
+    padding: 0 60px 0 60px;
+    margin-left: -35px;
   }
 
   main.main-section img {

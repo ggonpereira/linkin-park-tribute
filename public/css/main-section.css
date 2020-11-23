@@ -50,6 +50,8 @@
 }
 
 .musics iframe {
+  border: none;
+
   width: 100%;
   height: auto;
   min-height: 250px;
